@@ -1,0 +1,31 @@
+.features__title {
+  margin: 48px 0 36px 0;
+  max-width: 250px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+}
+.features__list {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.features__item {
+  padding: 36px 24px;
+  background: #f9f9f9;
+}
+.features__logo {
+  margin-bottom: 12px;
+}
+.features__item-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 12px;
+}
+
+.features__item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}

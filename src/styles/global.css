@@ -1,0 +1,16 @@
+@import url("./fonts.css");
+body {
+  font-family: "Satoshi", sans-serif;
+  color: #2a254b;
+}
+
+.container {
+  padding: 0 24px;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 400;
+}
