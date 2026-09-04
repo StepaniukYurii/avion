@@ -1,12 +1,15 @@
 import "./Listings.css";
-import vases from "../assets/images/vases.jpg";
+import vaseSet from "../assets/images/vase-set.jpg";
+import lusyLamp from "../assets/images/lusy-lamp.jpg";
+import silkyVase from "../assets/images/silky-vase.jpg";
+import dandyChair from "../assets/images/dandy-chair.jpg";
 
 function Listings() {
   const products = [
-    { id: 1, title: "Rustic vase set", price: 155, image: vases },
-    { id: 2, title: "The Lucy Lamp", price: 399, image: vases },
-    { id: 3, title: "The Lucy Lamp", price: 399, image: vases },
-    { id: 4, title: "The Lucy Lamp", price: 399, image: vases },
+    { id: 1, title: "Rustic vase set", price: 155, image: vaseSet },
+    { id: 2, title: "The Lucy Lamp", price: 399, image: lusyLamp },
+    { id: 3, title: "The Lucy Lamp", price: 399, image: silkyVase },
+    { id: 4, title: "The Lucy Lamp", price: 399, image: dandyChair },
   ];
   return (
     <section className="listings">
