@@ -1,0 +1,26 @@
+.listings__list {
+  display: flex;
+  gap: 20px 16px;
+}
+.listings__image {
+  margin-bottom: 24px;
+}
+.listings__title {
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 140%;
+}
+.listings__price {
+  font-size: 18px;
+  line-height: 150%;
+}
+.listings__button {
+  display: block;
+  background-color: #f9f9f9;
+  color: #2a254b;
+  margin: 32px auto;
+  width: 100%;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 16px 0;
+}
