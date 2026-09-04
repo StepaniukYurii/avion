@@ -2,7 +2,10 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Features from "../components/Features";
 import Listings from "../components/Listings";
+import Story from "../components/Story";
+import Newsletter from "../components/Newsletter";
 
+Newsletter;
 function Home() {
   return (
     <>
@@ -10,6 +13,8 @@ function Home() {
       <Hero />
       <Features />
       <Listings />
+      <Story />
+      <Newsletter />
     </>
   );
 }

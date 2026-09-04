@@ -1,3 +1,6 @@
+.listings {
+  padding: 24px 0 28px 0;
+}
 .listings__list {
   display: flex;
   flex-wrap: wrap;
