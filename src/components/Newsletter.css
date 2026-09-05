@@ -1,11 +1,12 @@
 .newsletter {
+  padding: 24px 0 32px;
   background-image: url(../assets/images/newsletter.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.newslettwer__tittle {
-  margin: 24px 0 12px 0;
+.newsletter__title {
+  margin-bottom: 12px;
   font-size: 24px;
   line-height: 1.4;
   color: #fff;
@@ -15,4 +16,37 @@
   line-height: 1.5;
   color: #fff;
   margin-bottom: 20px;
+}
+.newsletter__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.newsletter__icon {
+  margin-right: 8px;
+}
+.newsletter__item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+}
+.newsletter__form {
+  margin-top: 28px;
+  display: flex;
+}
+.newsletter__input {
+  padding-left: 32px;
+  font-size: 16px;
+  color: #2a254b;
+
+  flex-grow: 1;
+}
+.newsletter__button {
+  white-space: nowrap;
+  padding: 16px 32px;
+  background: #2a254b;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
 }

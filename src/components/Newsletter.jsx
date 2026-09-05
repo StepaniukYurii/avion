@@ -5,7 +5,7 @@ function Newsletter() {
   return (
     <section className="newsletter">
       <div className="container">
-        <h2 className="newslettwer__tittle">
+        <h2 className="newsletter__title">
           Join the club and get the benefits
         </h2>
         <p className="newsletter__text">
@@ -26,6 +26,16 @@ function Newsletter() {
             <p className="newsletter__item-text">Large discounts</p>
           </li>
         </ul>
+        <form className="newsletter__form">
+          <input
+            type="mail"
+            placeholder="your@email.com"
+            className="newsletter__input"
+          />
+          <button type="submit" className="newsletter__button">
+            Sign up
+          </button>
+        </form>
       </div>
     </section>
   );
