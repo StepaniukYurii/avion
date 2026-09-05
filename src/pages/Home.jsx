@@ -6,7 +6,6 @@ import Story from "../components/Story";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 
-Newsletter;
 function Home() {
   return (
     <>
