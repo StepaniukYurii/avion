@@ -1,0 +1,15 @@
+.banner {
+  padding: 8px 0;
+
+  background-color: #2a254b;
+}
+.banner__wrapper {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.banner__text {
+  font-size: 14px;
+  color: #fff;
+}
