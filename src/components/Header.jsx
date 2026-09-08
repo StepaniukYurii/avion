@@ -1,38 +1,36 @@
 import "./Header.css";
 import searchIcon from "../assets/icons/search.svg";
 import shoppingBasket from "../assets/icons/shopping-basket.svg";
-import userAvatar from "../assets/icons/user-avatar.svg";
 import mobileMenu from "../assets/icons/mobile-menu.svg";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header className="header">
       <div className="container">
         <div className="header__top">
-          <a className="header__logo" href="">
+          <Link className="header__logo" to="/ ">
             Avion
-          </a>
+          </Link>
           <div className="header__wrapper">
-            <button className="header__search">
-              <img src={searchIcon} alt="search" />
-            </button>
-
-            <button className="header__mobile-menu">
-              <img src={mobileMenu} alt="mobile menu" />
-            </button>
+            <ul className="header__actions">
+              <li>
+                <Link className="header__search">
+                  <img src={searchIcon} alt="search" />
+                </Link>
+              </li>
+              <li>
+                <Link to="/basket">
+                  <img src={shoppingBasket} alt="shopping basket" />
+                </Link>
+              </li>
+              <li>
+                <Link className="header__mobile-menu">
+                  <img src={mobileMenu} alt="mobile menu" />
+                </Link>
+              </li>
+            </ul>
           </div>
-          <ul className="header__actions">
-            <li>
-              <a href="">
-                <img src={shoppingBasket} alt="shopping basket" />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src={userAvatar} alt="User Avatar" />
-              </a>
-            </li>
-          </ul>
         </div>
         <nav>
           <ul className="header__nav">

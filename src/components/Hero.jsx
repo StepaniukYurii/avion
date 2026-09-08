@@ -1,5 +1,6 @@
 import "./Hero.css";
 import heroImg from "../assets/images/hero-image.jpg";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -12,7 +13,9 @@ function Hero() {
           With our new collection, view over 400 bespoke pieces from homeware
           through to furniture today
         </p>
-        <button className="hero__view-button">View collection</button>
+        <Link to="all-products" className="hero__view-button button">
+          View collection
+        </Link>
         <img src={heroImg} alt="" className="hero__image" />
       </div>
     </section>

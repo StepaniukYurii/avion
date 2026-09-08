@@ -22,14 +22,9 @@
 }
 
 .story__button {
-  display: block;
   background-color: rgba(249, 249, 249, 0.15);
   color: #fff;
   margin: 32px auto;
-  width: 100%;
-  font-size: 16px;
-  line-height: 150%;
-  padding: 16px 0;
 }
 .story__image {
   width: 100%;

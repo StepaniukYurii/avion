@@ -3,8 +3,8 @@ import vaseSet from "../assets/images/vase-set.jpg";
 import lusyLamp from "../assets/images/lusy-lamp.jpg";
 import silkyVase from "../assets/images/silky-vase.jpg";
 import dandyChair from "../assets/images/dandy-chair.jpg";
-
-function Listings() {
+import { Link } from "react-router-dom";
+function Listings(props) {
   const products = [
     { id: 1, title: "Rustic vase set", price: 155, image: vaseSet },
     { id: 2, title: "The Lucy Lamp", price: 399, image: lusyLamp },
@@ -14,6 +14,7 @@ function Listings() {
   return (
     <section className="listings">
       <div className="container">
+        {props.title && <h2 className="listings__heading">{props.title} </h2>}
         <ul className="listings__list">
           {products.map((product) => {
             return (
@@ -29,7 +30,9 @@ function Listings() {
             );
           })}
         </ul>
-        <button className="listings__button">View collection</button>
+        <Link to="/all-products" className="listings__button button">
+          View collection
+        </Link>
       </div>
     </section>
   );

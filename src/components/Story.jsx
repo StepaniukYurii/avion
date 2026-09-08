@@ -1,5 +1,7 @@
 import "./Story.css";
 import interiorScene from "../assets/images/interior-scene.jpg";
+import { Link } from "react-router-dom";
+
 function Story() {
   return (
     <section className="story">
@@ -10,7 +12,9 @@ function Story() {
             A global brand with local beginnings, our story begain in a small
             studio in South London in early 2014
           </p>
-          <button className="story__button">View collection</button>
+          <Link to="/all-products" className="story__button button">
+            View collection
+          </Link>
         </div>
         <img
           src={interiorScene}

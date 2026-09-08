@@ -1,0 +1,20 @@
+.origins__wrapper {
+  padding: 48px 0 42px 0;
+}
+.origins__title {
+  max-width: 250px;
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 12px;
+}
+
+.origins__text {
+  font-size: 14px;
+  line-height: 150%;
+}
+.origins__text-bottom {
+  margin: 16px 0 48px 0;
+}
+.origins__button {
+  background-color: #f9f9f9;
+}

@@ -1,0 +1,13 @@
+.brand {
+  padding: 32px 0;
+}
+.brand__title {
+  font-size: 32px;
+  line-height: 140%;
+  margin-bottom: 40px;
+}
+
+.brand__button {
+  background-color: #f9f9f9;
+  color: #2a254b;
+}

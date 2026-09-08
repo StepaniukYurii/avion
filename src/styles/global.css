@@ -14,3 +14,11 @@ h4 {
   font-family: "Clash Display", sans-serif;
   font-weight: 400;
 }
+.button {
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 16px 0;
+}
