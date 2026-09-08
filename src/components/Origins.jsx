@@ -20,7 +20,6 @@ function Origins() {
             live, breathe and design so our Chelsea boutique become the hotbed
             for the London interior design community.
           </p>
-          <button className="origins__button button">Get in touch</button>
         </div>
       </div>
     </section>

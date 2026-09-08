@@ -13,8 +13,5 @@
   line-height: 150%;
 }
 .origins__text-bottom {
-  margin: 16px 0 48px 0;
-}
-.origins__button {
-  background-color: #f9f9f9;
+  margin-top: 16px;
 }

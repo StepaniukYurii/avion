@@ -1,4 +1,5 @@
 import "./Brand.css";
+import { Link } from "react-router-dom";
 
 function Brand() {
   return (
@@ -8,7 +9,9 @@ function Brand() {
           A brand built on the love of craftmanship, quality and outstanding
           customer service
         </h1>
-        <button className="brand__button button">View our products</button>
+        <Link to="/all-products" className="brand__button button">
+          View our products
+        </Link>
       </div>
     </section>
   );

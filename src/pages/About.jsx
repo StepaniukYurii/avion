@@ -13,7 +13,6 @@ function About() {
       <Banner />
       <Header />
       <Brand />
-      <Story />
       <Origins />
       <Features />
       <Newsletter />

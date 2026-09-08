@@ -1,8 +1,10 @@
 import "./Basket.css";
 import products from "../data/products";
 import { useState } from "react";
+
 function Basket() {
   const [productCount, setProductCount] = useState(1);
+
   return (
     <section className="basket">
       <div className="container">

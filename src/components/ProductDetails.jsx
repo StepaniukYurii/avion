@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 import products from "../data/products";
 
-function ProductDetails() {
+function ProductDetails({ setBasket }) {
   const [quantity, setQuantity] = useState(1);
   const params = useParams();
   const currentProduct = products.find((product) => {

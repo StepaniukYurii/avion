@@ -12,8 +12,8 @@ function Story() {
             A global brand with local beginnings, our story begain in a small
             studio in South London in early 2014
           </p>
-          <Link to="/all-products" className="story__button button">
-            View collection
+          <Link to="/about" className="story__button button">
+            About Us
           </Link>
         </div>
         <img
