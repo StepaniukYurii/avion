@@ -6,7 +6,6 @@ import caretDown from "../assets/icons/caret-down.svg";
 
 function AllProducts() {
   const [visibleCount, setVisibleCount] = useState(8);
-  console.log(products.length);
   return (
     <section className="all-products">
       <div className="container">

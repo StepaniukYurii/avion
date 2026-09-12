@@ -1,49 +1,30 @@
 import "./Basket.css";
-import products from "../data/products";
-import { useState } from "react";
+import BasketItem from "./BasketItem";
 
-function Basket() {
-  const [productCount, setProductCount] = useState(1);
+function Basket({ basket, setBasket }) {
+  const subtotal = basket.reduce((acc, item) => {
+    return acc + item.price * item.quantity;
+  }, 0);
 
   return (
     <section className="basket">
       <div className="container">
         <h1 className="basket__title">Your shopping cart</h1>
         <ul className="basket__list">
-          {products.map((product) => {
+          {basket.map((product) => {
             return (
-              <li className="basket__item">
-                <img
-                  src={product.image}
-                  alt={product.title}
-                  className="basket__image"
-                />
-                <div className="basket__content">
-                  <h2 className="basket__content-title">{product.title}</h2>
-                  <p className="basket__content-prise">£{product.price}</p>
-                  <div className="basket__quantity">
-                    <button
-                      onClick={() => setProductCount(productCount - 1)}
-                      className="basket__button"
-                    >
-                      -
-                    </button>
-                    <span className="basket__value">{productCount}</span>
-                    <button
-                      onClick={() => setProductCount(productCount + 1)}
-                      className="basket__button"
-                    >
-                      +
-                    </button>
-                  </div>
-                </div>
-              </li>
+              <BasketItem
+                basket={basket}
+                setBasket={setBasket}
+                product={product}
+                key={product.id}
+              />
             );
           })}
         </ul>
         <div className="basket__summery">
           <p className="basket__subtotal">
-            Subtotal <span>£210</span>
+            Subtotal <span>£{subtotal}</span>
           </p>
           <p className="basket__notice">
             Taxes and shipping are calculated at checkout

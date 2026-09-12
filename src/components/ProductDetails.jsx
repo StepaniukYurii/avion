@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 import products from "../data/products";
 
-function ProductDetails({ setBasket }) {
+function ProductDetails({ basket, setBasket }) {
   const [quantity, setQuantity] = useState(1);
   const params = useParams();
   const currentProduct = products.find((product) => {
@@ -11,7 +11,6 @@ function ProductDetails({ setBasket }) {
       return product;
     }
   });
-  console.log(currentProduct.image);
   return (
     <section className="product-details">
       <div className="container">
@@ -73,7 +72,29 @@ function ProductDetails({ setBasket }) {
                 </div>
               </li>
             </ul>
-            <button className="product-details__button button">
+            <button
+              onClick={() => {
+                const findProduct = basket.find((item) => {
+                  return item.id === currentProduct.id;
+                });
+                if (!findProduct) {
+                  setBasket([
+                    ...basket,
+                    { ...currentProduct, quantity: quantity },
+                  ]);
+                } else {
+                  setBasket(
+                    basket.map((item) => {
+                      if (item.id === currentProduct.id) {
+                        return { ...item, quantity: quantity };
+                      }
+                      return item;
+                    }),
+                  );
+                }
+              }}
+              className="product-details__button button"
+            >
               Add to cart
             </button>
           </div>

@@ -17,10 +17,13 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route
           path="/product/:id"
-          element={<Product setBasket={setBasket} />}
+          element={<Product basket={basket} setBasket={setBasket} />}
         />
         <Route path="/about" element={<About />} />
-        <Route path="/basket" element={<ShoppingBasket />} />
+        <Route
+          path="/basket"
+          element={<ShoppingBasket basket={basket} setBasket={setBasket} />}
+        />
         <Route path="/all-products" element={<AllProductsPage />} />
       </Routes>
     </BrowserRouter>

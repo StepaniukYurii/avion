@@ -6,12 +6,12 @@ import Features from "../components/Features";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 
-function Product({ setBasket }) {
+function Product({ basket, setBasket }) {
   return (
     <>
       <Banner />
       <Header />
-      <ProductDetails setBasket={setBasket} />
+      <ProductDetails basket={basket} setBasket={setBasket} />
       <Listings title="u might also like" />
       <Features />
       <Newsletter />

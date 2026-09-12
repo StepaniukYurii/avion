@@ -8,7 +8,7 @@ const products = [
     id: 1,
     image: getImage("ceramic-001.jpg"),
     title: "Nordic White Vases",
-    price: 54,
+    price: 50,
     description:
       "Nordic Best Selling White Vases New Design China Ceramic Vases Home Decor Ornament Vase Ceramic",
     dimensions: { width: 67, height: 40, depth: 38 },
@@ -18,7 +18,7 @@ const products = [
     id: 2,
     image: getImage("ceramic-002.png"),
     title: "Vintage Vases",
-    price: 155,
+    price: 25,
     description:
       "Rustic Vintage Style Tabletop Ceramic Vase Hand Painted Ceramic Floral Vase Fireplace Console Table Home Decor Ceramic Factory",
     dimensions: { width: 16, height: 12, depth: 10 },
