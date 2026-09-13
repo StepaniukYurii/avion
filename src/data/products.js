@@ -112,7 +112,7 @@ const products = [
     description:
       "Wholesale Natural Yellow Travertine LED Table Lamp Wabi-Sabi Round Cone Travertine Desk Lamp for Bedroom Dining Room",
     dimensions: { width: 25, height: 25, depth: 45 },
-    categories: ["Lamp"],
+    categories: ["Lamps"],
   },
   {
     id: 12,
@@ -122,7 +122,7 @@ const products = [
     description:
       "Hanging Lamp Japanese Style Wabi Sabi Chandelier Living Room Restaurant Ceiling Lamp Modern Bar Designer Pendant Light",
     dimensions: { width: 30, height: 50, depth: 80 },
-    categories: ["Lamp"],
+    categories: ["Lamps"],
   },
   {
     id: 13,
@@ -132,7 +132,7 @@ const products = [
     description:
       "Designer Nordic Style Small Silent Wind Entrance Horizontal Bedside Pendant Light Japanese Style Homestay with Stone for Bedroom",
     dimensions: { width: 15, height: 55, depth: 10 },
-    categories: ["Lamp"],
+    categories: ["Lamps"],
   },
   {
     id: 14,
@@ -142,7 +142,7 @@ const products = [
     description:
       "Bed Light Lamp Led Touch Night Lamp Luminous White Switch Power Item Lighting Snl Room Color Design Small Material Electric ABS",
     dimensions: { width: 33, height: 15, depth: 10 },
-    categories: ["Lamp"],
+    categories: ["Lamps"],
   },
   {
     id: 15,
@@ -152,7 +152,7 @@ const products = [
     description:
       "USB Rechargeable LED Table Lamp Rechargeable Touch Night Light Led Desk Lamp Led Bedside Lamp Night Light with Eye Protection",
     dimensions: { width: 21, height: 15, depth: 15 },
-    categories: ["Lamp"],
+    categories: ["Lamps"],
   },
   {
     id: 16,
@@ -162,7 +162,7 @@ const products = [
     description:
       "Next American Modern Design LED Desk Lamp Nordic Ins Minimalist Warehouse Vertical Switch Control Luxury Standing Floor Lamp E26",
     dimensions: { width: 40, height: 40, depth: 162 },
-    categories: ["Lamp"],
+    categories: ["Lamps"],
   },
   {
     id: 17,
@@ -172,7 +172,7 @@ const products = [
     description:
       "Nordic Modern Yellow Cave Stone Restaurant Bar Pendant Light Cement Terrazzo Bedroom Bedside Pendant Light",
     dimensions: { width: 42, height: 42, depth: 23 },
-    categories: ["Lamp"],
+    categories: ["Lamps"],
   },
   {
     id: 18,
@@ -182,7 +182,7 @@ const products = [
     description:
       "High Quality LED Floor Light Lamp Modern Nordic Lamp New Living Room Corner Light Floor Lamp Adjustable Lighting",
     dimensions: { width: 147, height: 32, depth: 32 },
-    categories: ["Lamp"],
+    categories: ["Lamps"],
   },
   {
     id: 19,
@@ -192,7 +192,7 @@ const products = [
     description:
       "Himalayan Salt Lamp Raw LED Round Globe Natural Rock Salt Wooden Base Home Decor Ambient Lighting",
     dimensions: { width: 15, height: 20, depth: 15 },
-    categories: ["Lamp"],
+    categories: ["Lamps"],
   },
   {
     id: 20,
@@ -202,7 +202,7 @@ const products = [
     description:
       "Modern Simple Single Reception Sofa Chair Combination for Home Office Beauty Salon Hotel Lobby Sales Office Negotiation Dining",
     dimensions: { width: 77, height: 67, depth: 80 },
-    categories: ["Chair"],
+    categories: ["Chairs"],
   },
   {
     id: 21,
@@ -212,7 +212,7 @@ const products = [
     description:
       "Creative internet celebrity bean bag caterpillar lounge chair, bedroom small sofa, balcony leisure lazy sofa",
     dimensions: { width: 75, height: 80, depth: 85 },
-    categories: ["Chair"],
+    categories: ["Chairs"],
   },
   {
     id: 22,
@@ -222,7 +222,7 @@ const products = [
     description:
       "Luxury Solid Wood Foldable Garden Chair Versatile Outdoor Furniture for Home Garden Hotel Gym School Warehouse",
     dimensions: { width: 46, height: 80, depth: 46 },
-    categories: ["Chair"],
+    categories: ["Chairs"],
   },
   {
     id: 23,
@@ -232,7 +232,7 @@ const products = [
     description:
       "Nordic Velvet Fabric Modern Luxury Design Furniture Dining Room Chairs Upholstered Metal Leg Gold Dining Chair",
     dimensions: { width: 60, height: 60, depth: 60 },
-    categories: ["Chair"],
+    categories: ["Chairs"],
   },
   {
     id: 24,
@@ -242,17 +242,17 @@ const products = [
     description:
       "Modern Velvet Dining Chair Seat Sturdy Metal Frame Workshop for Home Furniture Restaurant Lounge",
     dimensions: { width: 65, height: 67, depth: 83 },
-    categories: ["Chair"],
+    categories: ["Chairs"],
   },
   {
     id: 25,
     image: getImage("chair-006.jpg"),
-    title: "Wood Dining Chair",
+    title: "Dining Chair",
     price: 28,
     description:
       "Vintage Solid Wood Dining Chair with Upholstered Backrest: Comfortable and Relaxing Chair for Home Dining Rooms and Offices",
     dimensions: { width: 52, height: 78, depth: 23 },
-    categories: ["Chair"],
+    categories: ["Chairs"],
   },
   {
     id: 26,
@@ -262,7 +262,7 @@ const products = [
     description:
       "Dining Chair Home Furniture Nordic Style Backrest Modern Simple Iron Art Horn-Shaped for Bedroom and Dining Room",
     dimensions: { width: 38, height: 41, depth: 35 },
-    categories: ["Chair"],
+    categories: ["Chairs"],
   },
   {
     id: 27,
@@ -272,17 +272,17 @@ const products = [
     description:
       "Wholesale Comfortable Accent Modern Papasan Outdoor Furniture Rocking Relaxing Sofa Lazy Rocking Recliner Chair for Living Room",
     dimensions: { width: 65, height: 120, depth: 92 },
-    categories: ["Chair"],
+    categories: ["Chairs"],
   },
   {
     id: 28,
     image: getImage("chair-009.png"),
-    title: " Wood Dining Chair",
+    title: "Wood Dining Chair",
     price: 28,
     description:
       "Modern Eco-Friendly Solid Wood Dining Chair with Curved Backrest and Upholstered Seat for Home Office and Dining",
     dimensions: { width: 50, height: 77, depth: 52 },
-    categories: ["Chair"],
+    categories: ["Chairs"],
   },
   {
     id: 29,
@@ -292,7 +292,7 @@ const products = [
     description:
       "Modern Rubber Wood 2-Tier Side Table Narrow End Table Sofa Side Table for Living Room & Bedroom Nightstand with Storage Shelf",
     dimensions: { width: 70, height: 30, depth: 67 },
-    categories: ["Table"],
+    categories: ["Tables"],
   },
   {
     id: 30,
@@ -302,7 +302,7 @@ const products = [
     description:
       "New European Style Living Room Furniture Irregular Coffee Table Brown Solid Wood Creative Cloud Coffee Table",
     dimensions: { width: 117, height: 90, depth: 40 },
-    categories: ["Table"],
+    categories: ["Tables"],
   },
   {
     id: 31,
@@ -312,7 +312,7 @@ const products = [
     description:
       "Nordic Black White Round MDF Wooden Round Home Furniture Dining Table With Metal Legs for Sale",
     dimensions: { width: 125, height: 50, depth: 125 },
-    categories: ["Table"],
+    categories: ["Tables"],
   },
   {
     id: 32,
@@ -322,7 +322,7 @@ const products = [
     description:
       "Modern Luxury Stone Round Dining Table-Portable & Durable Home Furniture for Apartment & Hotel Use with Four Dining Chairs",
     dimensions: { width: 233, height: 150, depth: 10 },
-    categories: ["Table"],
+    categories: ["Tables"],
   },
   {
     id: 33,
@@ -332,7 +332,7 @@ const products = [
     description:
       "Vernier Round Burl Wood Side Table with Hidden Storage Cylindrical Drum Base Mid Century Modern Accent Table for Living Room",
     dimensions: { width: 40, height: 62, depth: 40 },
-    categories: ["Table"],
+    categories: ["Tables"],
   },
   {
     id: 34,
@@ -342,7 +342,7 @@ const products = [
     description:
       "Wholesale Factory Indoor Furniture Modern Dia80cm 4 Seater Glass Top Round Black Dining Restaurant Table for Cafe",
     dimensions: { width: 80, height: 75, depth: 80 },
-    categories: ["Table"],
+    categories: ["Tables"],
   },
   {
     id: 35,
@@ -352,7 +352,7 @@ const products = [
     description:
       "Modern Nesting Furniture Durable Eco-Friendly Easy to Clean Bamboo MDF Coffee End Table for Home Living Room Bedroom Home Office",
     dimensions: { width: 58, height: 10, depth: 58 },
-    categories: ["Table"],
+    categories: ["Tables"],
   },
   {
     id: 36,
@@ -362,7 +362,7 @@ const products = [
     description:
       "European Style Rustic Furniture Reclaimed Coffee Table Modern Wooden",
     dimensions: { width: 60, height: 45, depth: 60 },
-    categories: ["Table"],
+    categories: ["Tables"],
   },
   {
     id: 37,
@@ -372,7 +372,7 @@ const products = [
     description:
       "New Design Beige Travertine Side Table Contemporary Organic Modern Minimalist Furniture for Living Room Hotel Entry",
     dimensions: { width: 233, height: 150, depth: 10 },
-    categories: ["Table"],
+    categories: ["Tables"],
   },
   {
     id: 38,
@@ -382,7 +382,7 @@ const products = [
     description:
       "Factory Luxury Furniture Entryway Table Marble Top Foyer Metal Tables Modern Living Room Gold Console Table",
     dimensions: { width: 80, height: 80, depth: 30 },
-    categories: ["Table"],
+    categories: ["Tables"],
   },
   {
     id: 39,
@@ -391,7 +391,7 @@ const products = [
     price: 8508,
     description:
       "HIgh jewellery craftsmanship meets contemporary style in our Wild Flower necklace. Crafted with Graff's unmistakable eye for detail, layers of diamonds blossom in silhouette upon the pendant, with each sculptural petal individually rendered by hand.",
-    dimensions: { width: 233, height: 150, depth: 10 },
+    dimensions: { width: 45, height: "???", depth: "???" },
     categories: ["Jewellery"],
   },
   {
@@ -412,7 +412,7 @@ const products = [
     description:
       "Stock Solid Wood 5 Tier Bedroom Bookcase With Tempered Glass Flip up Doors Brown Natural Wood Freestanding Heavy Duty",
     dimensions: { width: 46, height: 177, depth: 22 },
-    categories: ["Storage"],
+    categories: ["Storages"],
   },
   {
     id: 42,
@@ -422,7 +422,7 @@ const products = [
     description:
       "Modern Natural Bamboo Wood Three-Layer Standing Type Non-Folding Sustainable Multifunction Spice Corner Organizer Storage",
     dimensions: { width: 31, height: 35, depth: 15 },
-    categories: ["Storage"],
+    categories: ["Storages"],
   },
   {
     id: 43,
@@ -432,7 +432,7 @@ const products = [
     description:
       "Italian - Style Acrylic Entryway Storage Shelf, Modern Minimalist Entry Storage Sideboard",
     dimensions: { width: 79, height: 40, depth: 90 },
-    categories: ["Storage"],
+    categories: ["Storages"],
   },
   {
     id: 44,
@@ -442,7 +442,7 @@ const products = [
     description:
       "Kitchen Island with Storage,Rolling Kitchen Cart with 3-Drawer Storage Cabinet on Wheels with Adjustable Shelves for Dining Room",
     dimensions: { width: 50, height: 37, depth: 47 },
-    categories: ["Storage"],
+    categories: ["Storages"],
   },
 ];
 export default products;

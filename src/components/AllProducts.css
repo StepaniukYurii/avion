@@ -8,6 +8,7 @@
   margin-bottom: 40px;
 }
 .all-products__actions {
+  position: relative;
   display: flex;
   justify-content: space-between;
   margin-bottom: 32px;

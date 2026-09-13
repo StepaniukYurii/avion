@@ -1,5 +1,5 @@
 import "./Footer.css";
-
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="footer">
@@ -9,28 +9,33 @@ function Footer() {
             <h3 className="footer__nav-title">Categories</h3>
             <ul className="footer__list">
               <li className="footer__item">
-                <a href="" className="footer__link">
-                  Crockery
+                <a href="#" className="footer__link">
+                  Ceramics
                 </a>
               </li>
               <li className="footer__item">
-                <a href="" className="footer__link">
-                  Furniture
+                <a href="#" className="footer__link">
+                  Lamps
                 </a>
               </li>
               <li className="footer__item">
-                <a href="" className="footer__link">
-                  Homeware
-                </a>
-              </li>
-              <li className="footer__item">
-                <a href="" className="footer__link">
-                  Plant pots
-                </a>
-              </li>
-              <li className="footer__item">
-                <a href="" className="footer__link">
+                <a href="#" className="footer__link">
                   Chairs
+                </a>
+              </li>
+              <li className="footer__item">
+                <a href="#" className="footer__link">
+                  Tables
+                </a>
+              </li>
+              <li className="footer__item">
+                <a href="#" className="footer__link">
+                  Jewellery
+                </a>
+              </li>
+              <li className="footer__item">
+                <a href="#" className="footer__link">
+                  Storages
                 </a>
               </li>
             </ul>
@@ -39,29 +44,29 @@ function Footer() {
             <h3 className="footer__nav-title">Menu</h3>
             <ul className="footer__list">
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <a href="#" className="footer__link">
                   New arrivals
                 </a>
               </li>
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <a href="#" className="footer__link">
                   Best sellers
                 </a>
               </li>
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <a href="#" className="footer__link">
                   Recently viewed
                 </a>
               </li>
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <a href="#" className="footer__link">
                   Popular this week
                 </a>
               </li>
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <Link to="/all-products" className="footer__link">
                   All products
-                </a>
+                </Link>
               </li>
             </ul>
           </li>
@@ -69,27 +74,27 @@ function Footer() {
             <h3 className="footer__nav-title">Our company</h3>
             <ul className="footer__list">
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <Link to="/about" className="footer__link">
                   About us
-                </a>
+                </Link>
               </li>
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <a href="#" className="footer__link">
                   Vacancies
                 </a>
               </li>
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <a href="#" className="footer__link">
                   Contact us
                 </a>
               </li>
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <a href="#" className="footer__link">
                   Privacy
                 </a>
               </li>
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <a href="#" className="footer__link">
                   Returns policy
                 </a>
               </li>

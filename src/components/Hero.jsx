@@ -13,7 +13,7 @@ function Hero() {
           With our new collection, view over 400 bespoke pieces from homeware
           through to furniture today
         </p>
-        <Link to="all-products" className="hero__view-button button">
+        <Link to="/all-products" className="hero__view-button button">
           View collection
         </Link>
         <img src={heroImg} alt="" className="hero__image" />

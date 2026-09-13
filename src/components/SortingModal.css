@@ -1,0 +1,32 @@
+.modal {
+  padding: 10px 15px;
+  background-color: #fff;
+  position: absolute;
+  border: 1px solid #b8b8b8;
+  border-radius: 10px;
+  top: 60px;
+}
+.sorting {
+  left: 25px;
+}
+.sorting__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sorting__button {
+  margin-right: 5px;
+}
+
+.filtering {
+  right: 25px;
+}
+
+.filtering__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.filtering__button {
+  margin-right: 5px;
+}
