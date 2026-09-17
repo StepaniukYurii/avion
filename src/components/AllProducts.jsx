@@ -10,6 +10,17 @@ function AllProducts() {
   const [currentModal, setCurrentModal] = useState(false);
   const [filtredProducts, setFiltredProducts] = useState(products);
 
+  const input = ["Ceramics", "Lamps", "Chairs"];
+
+  function practice(input) {
+    return input.some((item) => {
+      if (item == "Lamps") {
+        return true;
+      }
+    });
+  }
+  console.log(practice(input));
+
   return (
     <section className="all-products">
       <div className="container">

@@ -15,3 +15,50 @@
 .hero__image {
   width: 100%;
 }
+
+@media (min-width: 700px) {
+  .hero {
+    position: relative;
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+  .hero__content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 56px;
+    max-width: 626px;
+    min-height: 444px;
+    margin-left: auto;
+    background-color: #fff;
+  }
+  .hero__title {
+    margin-top: 0;
+    font-size: 32px;
+  }
+  .hero__text {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .hero__view-button {
+    display: inline-block;
+    margin: 0;
+    margin-right: auto;
+    margin-top: auto;
+  }
+  .hero__image {
+    z-index: 0;
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+@media (min-width: 1455px) {
+  .hero {
+    padding-top: 230px;
+    padding-bottom: 230px;
+  }
+}
