@@ -32,3 +32,20 @@
   font-size: 16px;
   line-height: 150%;
 }
+@media (min-width: 700px) {
+  .features {
+    padding: 80px 0;
+  }
+  .features__title {
+    max-width: 100%;
+    font-size: 24px;
+    text-align: center;
+  }
+  .features__list {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .features__item {
+    padding: 48px;
+  }
+}

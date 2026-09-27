@@ -6,10 +6,9 @@
   font-size: 20px;
 }
 .listings__list {
-  margin-bottom: 32px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 40px;
   gap: 20px 16px;
 }
 .listings__image {
@@ -33,4 +32,16 @@
   font-size: 16px;
   line-height: 150%;
   padding: 16px 0;
+}
+@media (min-width: 700px) {
+  .listings__list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 48px;
+    gap: 20px;
+  }
+  .listings__image {
+    height: 375px;
+    object-fit: cover;
+  }
 }
