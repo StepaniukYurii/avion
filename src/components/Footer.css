@@ -2,6 +2,9 @@
   padding: 40px 0 20px 0;
   background-color: #2a254b;
 }
+.footer__wrapper {
+  margin-bottom: 16px;
+}
 .footer__nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -21,7 +24,6 @@
 }
 .footer__link {
   display: block;
-
   font-size: 14px;
   color: #fff;
 }
@@ -32,7 +34,6 @@
 }
 
 .footer__form {
-  margin-bottom: 16px;
   display: flex;
 }
 .footer__input {
@@ -56,4 +57,32 @@
   color: #fff;
   padding-top: 20px;
   border-top: 1px solid #4e4d93;
+}
+@media (min-width: 700px) {
+  .footer {
+    padding: 58px 0 25px 0;
+  }
+
+  .footer__nav {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .footer__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 48px;
+  }
+  .footer__nav {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 0;
+  }
+  .footer__form {
+    max-width: 627px;
+  }
+  .footer__rights {
+    text-align: left;
+    padding-top: 24px;
+  }
 }
