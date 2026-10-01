@@ -50,3 +50,33 @@
   line-height: 150%;
   color: #fff;
 }
+@media (min-width: 700px) {
+  .newsletter {
+    padding: 97px 0 86px;
+  }
+  .newsletter__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .newsletter__title {
+    font-size: 32px;
+  }
+  .newsletter__text {
+    font-size: 18px;
+    text-align: center;
+    max-width: 494px;
+    margin-bottom: 30px;
+  }
+  .newsletter__list {
+    display: flex;
+    gap: 36px;
+  }
+  .newsletter__item {
+    margin-bottom: 0;
+  }
+  .newsletter__form {
+    width: 472px;
+    margin-top: 30px;
+  }
+}

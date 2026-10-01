@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Story() {
   return (
     <section className="story">
-      <div className="container">
+      <div className="container story__container">
         <div className="story__wrapper">
           <h2 className="story__title">It started with a small idea</h2>
           <p className="story__text">

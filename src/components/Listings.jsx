@@ -5,7 +5,7 @@ function Listings(props) {
   const listingProducts = products.slice(0, 4);
   return (
     <section className="listings">
-      <div className="container">
+      <div className="container listings__container">
         {props.title && <h2 className="listings__heading">{props.title} </h2>}
         <ul className="listings__list">
           {listingProducts.map((product) => {

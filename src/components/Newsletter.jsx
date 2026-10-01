@@ -4,7 +4,7 @@ import check from "../assets/icons/check-mark.svg";
 function Newsletter() {
   return (
     <section className="newsletter">
-      <div className="container">
+      <div className="container newsletter__container">
         <h2 className="newsletter__title">
           Join the club and get the benefits
         </h2>
