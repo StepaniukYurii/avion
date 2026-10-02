@@ -1,5 +1,11 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import instagramIcon from "../assets/icons/instagram-icon.svg";
+import twitterIcon from "../assets/icons/twitter-icon.svg";
+import facebookIcon from "../assets/icons/facebook-icon.svg";
+import pinterestIcon from "../assets/icons/pinterest-icon.svg";
+import linkedinIcon from "../assets/icons/linkedin-icon.svg";
+
 function Footer() {
   return (
     <footer className="footer">
@@ -114,7 +120,56 @@ function Footer() {
             </form>
           </div>
         </div>
-        <p className="footer__rights">Copyright 2022 Avion LTD</p>
+        <div className="footer__bottom">
+          <p className="footer__rights">Copyright 2022 Avion LTD</p>
+          <ul className="footer__social-list">
+            <li className="footer__social-item">
+              <a href="#" className="footer__social-link">
+                <img
+                  src={pinterestIcon}
+                  alt="pinterest"
+                  className="footer__social-logo"
+                />
+              </a>
+            </li>
+            <li className="footer__social-item">
+              <a href="#" className="footer__social-link">
+                <img
+                  src={twitterIcon}
+                  alt="twitter"
+                  className="footer__social-logo"
+                />
+              </a>
+            </li>
+            <li className="footer__social-item">
+              <a href="#" className="footer__social-link">
+                <img
+                  src={instagramIcon}
+                  alt="instagram"
+                  className="footer__social-logo"
+                />
+              </a>
+            </li>
+            <li className="footer__social-item">
+              <a href="#" className="footer__social-link">
+                <img
+                  src={facebookIcon}
+                  alt="facebook"
+                  className="footer__social-logo"
+                />
+              </a>
+            </li>
+            <li className="footer__social-item">
+              <a href="#" className="footer__social-link">
+                <img
+                  src={linkedinIcon}
+                  alt="linkedin"
+                  className="footer__social-logo"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   );

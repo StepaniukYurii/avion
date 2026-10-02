@@ -11,19 +11,16 @@ function Banner() {
   }
   return (
     <div className="banner">
-      <div className="container">
+      <div className="container banner__container">
         <div className="banner__wrapper">
           <img src={bannerIcon} alt="banner" className="banner__logo" />
           <p className="banner__text">
             Free delivery on all orders over £50 with code easter checkout
           </p>
-          <button
-            onClick={() => setVisible(false)}
-            className="banner__close-btn"
-          >
-            <img src={closeIcon} alt="close" className="banner__close" />
-          </button>
         </div>
+        <button onClick={() => setVisible(false)} className="banner__close-btn">
+          <img src={closeIcon} alt="close" className="banner__close" />
+        </button>
       </div>
     </div>
   );

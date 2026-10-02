@@ -3,13 +3,27 @@
 
   background-color: #2a254b;
 }
-.banner__wrapper {
+.banner__container {
   gap: 8px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+.banner__wrapper {
+  display: flex;
 }
 .banner__text {
   font-size: 14px;
   color: #fff;
+}
+
+@media (min-width: 700px) {
+  .banner__container {
+    position: relative;
+    justify-content: center;
+  }
+  .banner__close-btn {
+    position: absolute;
+    right: 80px;
+  }
 }

@@ -60,3 +60,26 @@
   background-color: #2a254b;
   color: #fff;
 }
+@media (min-width: 700px) {
+  .product-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .product-details__image {
+    width: 100%;
+    max-width: 700px;
+  }
+  .product-details__container {
+    padding: 0;
+  }
+  .product-details__info {
+    padding: 40px;
+  }
+}
+@media (min-width: 1440px) {
+  .product-details__container {
+    padding-right: 55px;
+  }
+}
