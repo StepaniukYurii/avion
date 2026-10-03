@@ -17,7 +17,6 @@
   gap: 22px;
 }
 .basket__image {
-  width: 100%;
   height: 166px;
   object-fit: contain;
 }
@@ -65,5 +64,36 @@
 .basket__checkout {
   background-color: #2a254b;
   color: #fff;
-  width: 100%;
+  min-width: 100%;
+}
+@media (min-width: 700px) {
+  .basket {
+    padding: 72px 0 54px 0;
+  }
+  .basket__summery {
+    padding-top: 22px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "item1 item2"
+      ". item3";
+  }
+  .basket__subtotal {
+    justify-self: end;
+
+    grid-area: item2;
+  }
+  .basket__notice {
+    grid-area: item1;
+  }
+  .basket__checkout {
+    justify-self: end;
+    grid-area: item3;
+    min-width: 0;
+  }
+}
+@media (min-width: 1440px) {
+  .basket__content-title {
+    font-size: 20px;
+  }
 }
